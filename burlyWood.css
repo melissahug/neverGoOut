@@ -1,0 +1,34 @@
+﻿body {
+    background-color:burlywood;
+    font-family:'Lucida Console';
+   }
+
+
+h1 {
+    font-weight:bolder;
+    border-bottom:dotted;
+}
+
+p {
+     padding: 0px 25px 0px 25px;
+}
+
+#wrap {
+    border-style:dotted;
+    text-align: center;
+    background-color:white;
+    margin:5px 90px 5px 90px;
+    line-height:initial;
+    }
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+    list-style:none;
+    font-style:italic;
+    }
+
+li::first-letter {
+    font-size: x-large;
+    font-weight: bold;
+}
